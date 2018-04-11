@@ -1183,12 +1183,22 @@ body.outlook p {
   th.small-12 {
     display: inline-block !important;
     width: 100% !important; }
+  .table_col2 .large-8 tr td, .table_col2 .large-8 tr, .table_col2 .large-8 th, .table_col2 .large-8, .table_col2 .large-8 table {
+    height: 0;
+    line-height: 0; }
+  .table_col2 th.small-12.large-8,
+  .table_col2 td.small-12.large-8 {
+    display: block !important; }
   .columns td.small-12,
   .column td.small-12,
   .columns th.small-12,
   .column th.small-12 {
     display: block !important;
     width: 100% !important; }
+  .mob_cor {
+    padding-top: 10px !important; }
+  .soc_table {
+    margin: auto; }
   .body .columns td.small-1,
   .body .column td.small-1,
   td.small-1 center,
@@ -1396,6 +1406,9 @@ table.body .columns.large-8,
 table.body .columns.large-5 {
   padding-left: 30px; }
 
+table.body .columns.pd_b {
+  padding-bottom: 0; }
+
 table.body .columns.large-4 {
   padding-right: 20px; }
 
@@ -1415,9 +1428,7 @@ table.body .columns.large-4 {
 .link_soc {
   display: inline-block;
   margin: 0 0 0 4px;
-  padding: 0;
-  position: relative;
-  top: -10px; }
+  padding: 0; }
 
 p.small-text-center.text-right {
   margin-bottom: 0 !important; }
@@ -1474,6 +1485,26 @@ p.small-text-center.text-right {
 
 .item-price {
   color: #666666; }
+
+.pd_b {
+  padding-bottom: 0; }
+
+.soc_table {
+  width: 230px !important; }
+
+.soc_table.soc_first tr td, .soc_table.soc_first, .soc_table.soc_first tr, .table_col, .table_col tr td {
+  height: 10px;
+  line-height: 9px;
+  padding: 0; }
+
+.soc_table, .soc_table tr, .soc_table tr td, .table_col2 .large-4 tr td, .table_col2 .table_col2 .large-4 tr, .table_col2 .large-4 {
+  height: 28px;
+  line-height: 28px;
+  padding: 0; }
+
+.soc_table tr td {
+  width: 64px;
+  height: 28px; }
 
 table.button {
   margin-bottom: 0; }

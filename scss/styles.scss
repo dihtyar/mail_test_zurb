@@ -15,10 +15,16 @@ table.body .columns.large-5
 {
   padding-left: 30px;
 }
-
+table.body .columns.pd_b{
+  padding-bottom: 0;
+}
 table.body .columns.large-4{
   padding-right: 20px;
 }
+//table.body .columns.pd_b.cont-soc{
+//  padding-left: 80px;
+//}
+
 
 .bg_letter{
   background-color: $secondary-color!important;
@@ -41,8 +47,6 @@ table.body .columns.large-4{
   display: inline-block;
   margin: 0 0 0 4px;
   padding: 0;
-  position: relative;
-  top: -10px;
 }
 
 p.small-text-center.text-right{
@@ -105,6 +109,30 @@ p.small-text-center.text-right{
 }
 .item-price {
   color: $grey;
+}
+.pd_b{
+  padding-bottom: 0;
+}
+.soc_table{
+  width: 230px!important;
+}
+.soc_table.soc_first tr td, .soc_table.soc_first, .soc_table.soc_first tr , .table_col, .table_col tr td{
+  height: 10px;
+  line-height: 9px;
+  padding: 0;
+}
+.soc_table, .soc_table tr, .soc_table tr td, .table_col2 .large-4 tr  td , .table_col2 .table_col2 .large-4 tr , .table_col2 .large-4 {
+  height: 28px;
+  line-height: 28px;
+  padding: 0;
+}
+//.table_col2 .large-8 tr td , .table_col2 .large-8 tr, .table_col2 .large-8 th , .table_col2 .large-8, .table_col2 .large-8 table{
+//  height: 0;
+//  line-height: 0;
+//}
+.soc_table tr td{
+  width: 64px;
+  height: 28px;
 }
 
 table.button {
