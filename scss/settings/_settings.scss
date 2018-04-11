@@ -13,9 +13,9 @@
 //   8. Thumbnial
 
 
-
 //colors:
-$yellow: #FBF18E;
+
+$white: #ffffff;
 $accent: #F61067;
 $grey: #666666;
 
@@ -23,20 +23,21 @@ $grey: #666666;
 // ---------
 
 $primary-color: $accent;
-$secondary-color: #777777;
+$secondary-color: #EAE5E5;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$dark-gray: #D9D4D4;
 $black: #000000;
 $white: #ffffff;
+$blue: #129fdb;
 $pre-color: #ff6908;
-$global-width: 580px;
+$global-width: 646px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-$body-background: $yellow;
+$body-background: $white;
 $container-background: $white;
 $global-font-color: $black;
 $body-font-family: Arial, sans-serif;
@@ -69,13 +70,14 @@ $body-line-height: 19px;
 $header-font-family: $body-font-family;
 $header-font-weight: bold;
 $h1-font-size: 22px;
-$h2-font-size: 16px;
-$h3-font-size: 14px;
-$h4-font-size: 24px;
+$h2-font-size: 20px;
+$h3-font-size: 18px;
+$h4-font-size: 15px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
 $header-margin-bottom: 0;
 $paragraph-margin-bottom: 10px;
+$title-margin-bottom: 13px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;

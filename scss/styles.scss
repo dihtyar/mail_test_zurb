@@ -1,11 +1,27 @@
 @import "foundation";
-
 .no-bg {
   background: transparent !important;
 }
-
 .custom-pb {
-  padding-bottom: 10px !important;
+  padding-bottom: 8px !important;
+}
+table.body .columns.large-12{
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+table.body .columns.large-8,
+table.body .columns.large-5
+{
+  padding-left: 30px;
+}
+
+table.body .columns.large-4{
+  padding-right: 20px;
+}
+
+.bg_letter{
+  background-color: $secondary-color!important;
 }
 
 .tiny-text {
@@ -21,6 +37,15 @@
   color: #000;
 }
 
+.link_soc{
+  display: inline-block;
+  margin: 0 0 0 7px;
+  padding: 0;
+  position: relative;
+  top: -10px;
+}
+
+
 .main-sub-heading {
   color: $grey;
   text-transform: uppercase;
@@ -28,15 +53,37 @@
   font-size: 20px;
 }
 
+.heading {
+  margin: 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+.head{
+  margin: 0;
+  font-size: $h3-font-size;
+  font-weight: normal;
+}
+.sub-heading{
+  font-size: $h4-font-size;
+  font-weight: normal;
+  margin-bottom: $title-margin-bottom;
+}
 .main-heading {
   text-transform: uppercase;
   margin: 0;
   font-size: 22px;
 }
-
+.link-blue {
+  color: $blue;
+}
 .main-body-p {
-  color: $grey;
-  line-height: (22/14);
+  color: $black;
+  line-height: (16/14);
+}
+
+.bg_footer{
+  background-color: $dark-gray;
+  font-size: 0;
 }
 
 .decorative-line {
@@ -48,7 +95,11 @@
   text-transform: uppercase;
   color: $accent;
 }
-
+.link{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
 .item-price {
   color: $grey;
 }
@@ -64,3 +115,4 @@ table.button {
     }
   }
 }
+
