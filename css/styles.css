@@ -1413,7 +1413,7 @@ table.body .columns.large-4 {
   padding-right: 20px; }
 
 .bg_letter {
-  background-color: #EAE5E5 !important; }
+  background-color: #EAE5E5; }
 
 .tiny-text {
   font-size: 12px; }
